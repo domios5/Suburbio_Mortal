@@ -2,15 +2,6 @@
 
 Jogo de sobrevivência com zombies em 3D, feito numa única página HTML (Three.js). Explora edifícios, repara o rádio e o gerador com um minijogo de fiação, fabrica armas e defesas com pontuação de 0 a 100%, e aguenta as noites de lua cheia e nevoeiro.
 
-## Jogar online (GitHub Pages)
-
-1. Cria um repositório novo no GitHub e carrega `index.html` e `README.md` (Add file → Upload files).
-2. Vai a **Settings → Pages**.
-3. Em **Build and deployment**, escolhe **Deploy from a branch**, ramo `main` e pasta `/ (root)`. Guarda.
-4. Ao fim de um ou dois minutos o jogo fica em `https://O-TEU-UTILIZADOR.github.io/NOME-DO-REPOSITORIO/`.
-
-Num repositório privado o Pages só está disponível em alguns planos. Num repositório público é gratuito.
-
 ## Jogar no teu computador
 
 Abre o `index.html` no browser. Precisa de internet para carregar o Three.js e os tipos de letra. Se preferires um servidor local: `python3 -m http.server` e abre `http://localhost:8000`.
