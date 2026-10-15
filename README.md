@@ -2,7 +2,6 @@
 
 Jogo de sobrevivência com zombies em 3D, feito numa única página HTML (Three.js). Explora edifícios, repara o rádio e o gerador com um minijogo de fiação, fabrica armas e defesas com pontuação de 0 a 100%, e aguenta as noites de lua cheia e nevoeiro.
 
-
 ## Jogar no teu computador
 
 Abre o `index.html` no browser. Precisa de internet para carregar o Three.js e os tipos de letra. Se preferires um servidor local: `python3 -m http.server` e abre `http://localhost:8000`.
@@ -14,12 +13,16 @@ Descarrega https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js e g
 ## Controlos
 
 - **Mover:** WASD ou setas, ou clicar no chão. No telemóvel há um joystick.
-- **Câmara:** Q e R rodam, a roda do rato aproxima.
+- **Câmara:** Q e R rodam, a roda do rato aproxima. No telemóvel, arrasta o dedo no ecrã para rodar e faz o gesto de pinça para aproximar ou afastar; um toque curto no chão manda a personagem andar.
 - **Atacar:** Espaço ou o botão Atacar.
 - **Ação do objeto mais próximo:** E (também há botões no fundo do ecrã).
 - **Mochila:** I.
 - **Pausa:** Esc ou P.
 - **Som:** M liga ou desliga o som. No menu de pausa e no ecrã inicial, «Som» abre os volumes (efeitos e ambiente).
+
+## Telemóvel
+
+O ecrã adapta-se a ecrãs pequenos: barra de topo compacta com Pausa, Tempo e Mochila (Som e Ajuda ficam no menu de pausa), objetivo atual numa linha (toca para ver a lista), registo curto, minimapa pequeno e mochila em ecrã cheio com botão para fechar. Funciona na vertical e na horizontal.
 
 ## Gravação
 
